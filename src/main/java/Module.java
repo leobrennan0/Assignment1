@@ -7,8 +7,8 @@ public class Module {
 
     public Module(String name, int id, Lecturer lecturer)
     {
-        name = this.name;
-        id = this.id;
-        lecturer = this.lecturer;
+        this.name = name;
+        this.id = id;
+        this.lecturer = lecturer;
     }
 }

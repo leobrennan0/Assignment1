@@ -10,9 +10,9 @@ public class Lecturer {
 
     public Lecturer(String name, int age, LocalDate dob, int id)
     {
-        name = this.name;
-        age = this.age;
-        dob = this.dob;
+        this.name = name;
+        this.age = age;
+        this.dob = dob;
         username = "" + name + String.valueOf(age);
     }
 
