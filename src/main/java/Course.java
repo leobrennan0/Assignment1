@@ -1,4 +1,5 @@
-import java.time.LocalDate;
+import org.joda.time.LocalDate;
+import org.springframework.cglib.core.Local;
 
 public class Course {
     String name;
@@ -7,8 +8,10 @@ public class Course {
     LocalDate startDate;
     LocalDate endDate;
 
-    public Course()
+    public Course(String name, LocalDate startDate, LocalDate endDate)
     {
-
+        this.name = name;
+        this.startDate = startDate;
+        this.endDate = endDate;
     }
 }

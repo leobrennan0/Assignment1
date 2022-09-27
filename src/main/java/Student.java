@@ -6,12 +6,13 @@ public class Student {
     org.joda.time.LocalDate dob;
     int id;
     String username;
-    String[] courses;
+    Course course;
+    Module[] modules;
 
-    public Student(String name, int age, LocalDate dob, int id)
+    public Student(String name, int age, LocalDate dob, final int id)
     {
         this.name = name;
-        this.age =age;
+        this.age = age;
         this.dob = dob;
         username = "" + name + String.valueOf(age);
     }
