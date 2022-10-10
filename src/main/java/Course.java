@@ -8,10 +8,5 @@ public class Course {
     LocalDate startDate;
     LocalDate endDate;
 
-    public Course(String name, LocalDate startDate, LocalDate endDate)
-    {
-        this.name = name;
-        this.startDate = startDate;
-        this.endDate = endDate;
-    }
+
 }
