@@ -4,13 +4,13 @@ import org.joda.time.LocalDate;
 public class Student {
     String name;
     int age;
-    LocalDate  dob;
+    org.joda.time.LocalDate  dob;
     int id;
     String username;
     Course course;
     Module[] modules;
 
-    public Student(String name, int age, LocalDate dob, final int id)
+    public Student(String name, int age, org.joda.time.LocalDate dob, final int id)
     {
         this.name = name;
         this.dob = dob;
