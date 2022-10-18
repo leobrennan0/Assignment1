@@ -13,8 +13,9 @@ public class Student {
     public Student(String name, int age, LocalDate dob, final int id)
     {
         this.name = name;
-        this.age = age;
         this.dob = dob;
+        this.age = age;
+
         username = "" + name + String.valueOf(age);
     }
 
