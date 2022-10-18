@@ -1,9 +1,10 @@
+import org.joda.time.DateTime;
 import org.joda.time.LocalDate;
 
 public class Student {
     String name;
     int age;
-    org.joda.time.LocalDate dob;
+    LocalDate  dob;
     int id;
     String username;
     Course course;
