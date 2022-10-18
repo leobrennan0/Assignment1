@@ -8,10 +8,11 @@ public class Course {
     LocalDate startDate;
     LocalDate endDate;
 
-    public Course(String name, LocalDate startDate, LocalDate endDate)
+    public Course(String name, LocalDate startDate, LocalDate endDate, Student[] students)
     {
         this.name = name;
         this.startDate = startDate;
         this.endDate = endDate;
+        this.students = students;
     }
 }

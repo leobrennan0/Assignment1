@@ -16,8 +16,6 @@ dependencies {
     // https://mvnrepository.com/artifact/org.terasoluna.gfw/terasoluna-gfw-web
     implementation group: 'org.terasoluna.gfw', name: 'terasoluna-gfw-web', version: '5.7.1.RELEASE'
 
-    implementation 'com.github.leobrennan0:Assignment1:master-SNAPSHOT'
-
     compile 'joda-time:joda-time:2.11.2'
 
 
