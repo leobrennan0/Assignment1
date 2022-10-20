@@ -6,7 +6,7 @@ public class Lecturer {
     LocalDate dob;
     int id;
     String username;
-    String[] courses;
+    Module[] modules;
 
     public Lecturer(String name, int age, LocalDate dob, int id)
     {
