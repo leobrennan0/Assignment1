@@ -13,6 +13,5 @@ public class Course {
         this.name = name;
         this.startDate = startDate;
         this.endDate = endDate;
-        this.students = students;
     }
 }
