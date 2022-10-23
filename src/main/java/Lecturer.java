@@ -15,8 +15,11 @@ public class Lecturer {
         this.name = name;
         this.age = age;
         this.dob = dob;
-        username = "" + name + String.valueOf(age);
+        this.id = id;
         modules = new ArrayList<Module>();
+
+        username = "" + name + String.valueOf(age);
+
     }
 
     public String getUsername()

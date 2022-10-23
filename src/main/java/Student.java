@@ -17,6 +17,7 @@ public class Student {
         this.name = name;
         this.dob = dob;
         this.age = age;
+        this.id = id;
         modules = new ArrayList<Module>();
 
         username = "" + name + String.valueOf(age);
@@ -25,7 +26,7 @@ public class Student {
     //returns username
     public String getUsername()
     {
-        return username;
+        return username.replaceAll(" ", "");
     }
 
 }
