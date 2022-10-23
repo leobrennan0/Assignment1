@@ -1,10 +1,12 @@
 import org.joda.time.LocalDate;
 import org.springframework.cglib.core.Local;
 
+import java.util.ArrayList;
+
 public class Course {
     String name;
-    Module[] modules;
-    Student[] students;
+    ArrayList<Module> modules;
+    ArrayList<Student> students;
     LocalDate startDate;
     LocalDate endDate;
 

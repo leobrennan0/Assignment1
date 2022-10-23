@@ -1,6 +1,8 @@
 import org.joda.time.DateTime;
 import org.joda.time.LocalDate;
 
+import java.util.ArrayList;
+
 public class Student {
     String name;
     int age;
@@ -8,7 +10,7 @@ public class Student {
     int id;
     String username;
     Course course;
-    Module[] modules;
+    ArrayList<Module> modules;
 
     public Student(String name, int age, org.joda.time.LocalDate dob, final int id)
     {
