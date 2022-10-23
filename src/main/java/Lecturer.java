@@ -16,6 +16,7 @@ public class Lecturer {
         this.age = age;
         this.dob = dob;
         username = "" + name + String.valueOf(age);
+        modules = new ArrayList<Module>();
     }
 
     public String getUsername()

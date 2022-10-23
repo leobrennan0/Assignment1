@@ -15,5 +15,7 @@ public class Course {
         this.name = name;
         this.startDate = startDate;
         this.endDate = endDate;
+        modules = new ArrayList<Module>();
+        students = new ArrayList<Student>();
     }
 }
